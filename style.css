@@ -1,0 +1,83 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.again-btn,
+.check-btn {
+  padding: 20px 40px;
+  background-color: white;
+  color: rgb(41, 41, 41);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  font-family: "Press Start 2P";
+  cursor: pointer;
+}
+.check-btn {
+  width: 270px;
+  margin: 0 auto;
+}
+.between {
+  font-size: 20px;
+  font-weight: 500;
+}
+body {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  width: 95%;
+  font-family: "Press Start 2P";
+}
+.banner {
+  text-align: center;
+  margin: 100px 0;
+}
+.text {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.score {
+  background-color: white;
+  font-size: 80px;
+  width: 350px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 10px;
+  color: rgb(41, 41, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+}
+.card {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.guess {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  justify-content: center;
+}
+.input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 5px solid white;
+  color: white;
+  font-family: "Press Start 2P";
+  text-align: center;
+  font-size: 50px;
+  height: 100px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.hint {
+  margin-bottom: 50px;
+}
