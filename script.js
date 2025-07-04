@@ -55,3 +55,11 @@ function restore() {
 }
 
 document.querySelector(".again-btn").addEventListener("click", restore);
+
+let enter = function (press) {
+  console.log(press);
+  if (press.key === "Enter") {
+    execution();
+  }
+};
+document.addEventListener("keydown", enter);
